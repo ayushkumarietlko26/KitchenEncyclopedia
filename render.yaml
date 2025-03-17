@@ -1,0 +1,8 @@
+services:
+  - type: static
+    name: my-react-app
+    repo: https://github.com/ayushkumarietlko26/KitchenEncyclopedia
+    branch: main
+    buildCommand: npm install && npm run build
+    staticPublishPath: build
+    plan: free
