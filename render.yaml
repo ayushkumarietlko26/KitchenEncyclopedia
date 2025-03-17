@@ -1,5 +1,5 @@
 services:
-  - type: static
+  - type: web
     name: my-react-app
     repo: https://github.com/ayushkumarietlko26/KitchenEncyclopedia
     branch: main
