@@ -1,0 +1,72 @@
+.home{
+  text-align: center;
+  background: url('homepageimage.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+  }
+  
+  header {
+    text-align: center;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.8);
+  }
+  
+  h1 {
+    color: #e63946;
+  }
+  
+  p {
+    color: #555;
+  }
+  
+  .categories, .dish-list {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 2rem;
+  }
+  
+  .category, .dish {
+    padding: 5rem 2rem;
+    background: #f4a261;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    transition: background 0.3s;
+  }
+  
+  .category:hover, .dish:hover {
+    background: #e76f51;
+  }
+  
+  #ingredient-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+  
+  input, button {
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  #ingredients-list {
+    margin-top: 2rem;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 1rem;
+  }
+#button1{
+  font-size: 100px;
+}
+  

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kitchen Encyclopedia</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            text-align: center;
+           }
+        h1{
+            font-size: 80px;
+        }   
+        header{
+            background-image: url('homepageimage.jpg!sw800');
+            padding:20px;
+            opacity:1.0px;
+        }
+    </style>
+</head>
+<body style="background-color: antiquewhite;">
+    <header>
+        <h1 style="background-color:rgb(187, 219, 47);">Kitchen Encyclopedia</h1>
+        <h2>Choose your dish and cook with ease!</h2>
+    </header>
+    <main>
+        <section class="categories" >
+            <h2 style="font-size:xx-large;">Choose the Category </h2>
+            <div class="buttons">
+                <a href="chapati.html"><button onclick="loadDishes('Chapati')">Chapati</button></a>
+                <a href="sabji.html"><button onclick="loadDishes('Sabji')">Sabji</button></a>
+                <a href="dal.html"><button onclick="loadDishes('Dal')">Dal</button></a>
+                <a href="rice.html"><button onclick="loadDishes('Rice')">Rice</button></a>
+                <a href="traditionalsweet.html"><button onclick="loadDishes('Traditional Sweet')">Traditional Sweet</button></a>
+                <a href="sweetdrinks.html"><button onclick="loadDishes('Sweeet Drinks')">Sweet Drinks</button></a>
+                <a href="special.html"><button onclick="loadDishes('Special')">Special</button></a>
+                <a href="snacks.html"><button onclick="loadDishes('Snacks')">Snacks</button></a>
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Delicious vegetarian recipes for every meal!</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

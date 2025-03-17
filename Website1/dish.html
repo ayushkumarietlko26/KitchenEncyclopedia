@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dish Details</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <img src="" alt="">
+  <header>
+    <h1 id="dish-title">Dish Name</h1>
+    <p>Enter the number of people to get the ingredient quantities.</p>
+  </header>
+  <main>
+    <form id="ingredient-form">
+      <label for="people-count">Number of People:</label>
+      <input type="number" id="people-count" name="people-count" min="1" required>
+      <button type="submit">Get Ingredients</button>
+    </form>
+    <div id="ingredients-list"></div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
