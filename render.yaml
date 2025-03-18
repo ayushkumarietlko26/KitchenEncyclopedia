@@ -1,12 +1,8 @@
 services:
-  - type: web  # Change 'static' to 'web'
-    name: my-frontend
-    runtime: node  # Necessary for builds
-    repo: https://github.com/ayushkumarietlko26/KitchenEncyclopedia
+  - type: static
+    name: my-static-site
+    repo: https://github.com/yourusername/your-repo
     branch: main
     buildCommand: npm install && npm run build
-    startCommand: npx serve -s build -l 3000  # Serves the built files
+    staticPublishPath: build
     plan: free
-    envVars:
-      - key: NODE_VERSION
-        value: 18
